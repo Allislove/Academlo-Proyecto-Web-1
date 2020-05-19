@@ -326,6 +326,7 @@ a {
     background-color: #111111 !important;
     flex-wrap: wrap; /* Para controlar los elementos hijos del contenedor*/
     margin: auto; /* Centramos todo el contenedor*/
+    padding: 80px; /* Espacio de el contenedor de el footer */
     
 
 }
@@ -334,10 +335,6 @@ a {
     width: 33.333%;
     color: white;
    /* border: solid; */
-   padding: 80px;
-   padding-left: 90px;
-   padding-right: 90px;
-
 }
 
 
