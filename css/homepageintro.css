@@ -308,14 +308,14 @@ a {
 
 /* boton para leer more secciones*/
 
-.leermore {
+.readmore {
     border: 0;
-    font-weight: 600;
+    font-weight: 300;
 
 }
 
-.leermore:hover {
-    background: orangered;
+.readmore:hover {
+    background: rgb(155, 10, 223);
 }
 /* latest news Section End */
 
