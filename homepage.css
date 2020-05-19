@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-weight: 400;
+    line-height: 34px;
+    color: #5d5d5d;
+    background-color: #ffffff;
+    overflow-x: hidden;
+   -webkit-font-smoothing: antialiased; /* Mejora la visualizacion*/
+}
+
+.homepage-container { /* Contenedor padre se ajustara a la medida que le de al contenedor hijo, 
+    tanto en ancho como en alto*/
+    display: flex;
+    padding: 12px 24px;
+    /*border: solid;  borde primer contenedor*/
+    background-color: #f8f8f8 !important;
+    
+}
+
+
+/* aqui va un codigo que estoy probando*/
+
+
+.container-hijo { /* Ya que no le he defindo un tamaño al contenedor padre, esta medida hara 
+    que el contenedor padre tenga la medida en este caso (ancho) de su hijo*/
+    width: 100%;
+    
+
+}
+
+
+.introhomepagecenter {
+    /* border: solid;  Borde contenedor h*/
+    height: 340px;
+    margin: 10px;
+    text-align: center!important;
+    padding-top: 90px;
+
+}
+
+
+.introhomepagecenter h1 {
+    font-size: 60px;
+    line-height: 85px;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #282828;
+    margin: 0 0 15px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.introhomepagecenter h4 {
+    font-size: 20px;
+}
+
+/* subtitulo del introhomepage*/
+.subtitle- {
+    font-weight: lighter;
+    text-transform: capitalize!important;
+}
+
+h4 {
+    letter-spacing: 2.7px;
+}
+

@@ -1,0 +1,33 @@
+.container-lastworks {
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    
+   
+}
+
+
+.info-lastworks {
+    text-align: center;
+
+}
+
+ul li {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+
+.padre {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    background: greenyellow;
+    justify-content: stretch;
+
+
+}
+

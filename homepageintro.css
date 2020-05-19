@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body {
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    line-height: 34px;
+    color: #5d5d5d;
+    background-color: #ffffff;
+    
+}
+
+
+.homepage-container { /* Contenedor padre se ajustara a la medida que le de al contenedor hijo, 
+    tanto en ancho como en alto 
+        border: solid;
+*/
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 24px;
+    background-color: #f8f8f8 !important;
+    justify-content: center;
+    padding-top: 100px;
+
+    
+}
+
+
+.introhomepagecenter {
+    /* border: solid;  Borde contenedor h*/
+    height: 340px;
+    margin: 10px;
+    text-align: center!important;
+    padding-top: 90px;
+
+}
+
+
+.introhomepagecenter h1 {
+    font-size: 60px;
+    line-height: 85px; 
+    letter-spacing: 6px;
+    text-transform: uppercase; /* Convierte todo el titulo en mayusculas */
+
+}
+
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #282828;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.introhomepagecenter h4 {
+    font-size: 20px;
+}
+
+/* subtitulo del introhomepage*/
+.subtitle- {
+    font-weight: lighter;
+    text-transform: capitalize!important; /* Las iniciales de cada palabra las convierte en MAYUSCULA*/
+}
+
+h4 {
+    letter-spacing: 2.7px;
+    font-weight: 400;
+    margin-bottom: .4rem; /* Configurando el espaciado inferior de el subtitulo en la tarjeta*/
+}
+
+/* Fin (CSS) seccion intro del homepage*/
+
+
+
+
+/*************************************************************************************** */
+/* Inicio seccion (CSS) Servicios */ 
+
+.servicios-contenedor-padre {
+     background: #f8f9fa;
+     display: flex;
+     flex-flow: row wrap;    
+     justify-content: center;
+     /* No le ajusto ni ancho ni alto para que este se acomode al valor de su proximo hijo*/
+ 
+ }
+ 
+ 
+ /* Trabajando en las 4 cajas.*/
+ .cols-4 {
+     border-radius: 20px;
+     background: white;
+     margin: 12px;
+     padding: 60px 20px;
+     width: 20%;  
+     box-shadow: 2px 2px 10px 2px; 
+ }
+
+ .cardtext {
+    text-align: center!important;
+ }
+ 
+
+ .textsutbitles-cards {
+    color: black;
+ }
+
+ .cols-4:hover {
+     background: rgb(240, 122, 67);
+     opacity: 1;
+     
+
+ }
+
+/* seccion Ultimos trabajos inicio de css*/
+
+.container-lastworks {
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    background: white;
+    margin:40px;
+    padding-top: 20px;
+   
+}
+
+
+.info-lastworks {
+    text-align: center;
+    padding-top: 10px;
+    
+
+}
+
+ul li {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+/* Seccion ultimos trabajos fin */
+
+/* Seccion ultimos trabajos DIV FOTOS*/
+
+.contenedor-padresixpictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 60px;
+
+}
+
+.images-hijos {
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.colum-one {
+    
+    padding: 0em 0px 110px 5px;
+    padding-left: 120px;
+    padding-top: 70px;
+}
+.colum-two {
+    padding-bottom: 0;
+    
+}
+
+.colum-three {
+    padding: 0em 40px 90px 5px;
+}
+
+
+.espacios-entredivs {
+    /* Espacio entre los divs individuales, cada*/
+    margin: 16px;
+}
+
+
+
+/* Seccion ultimos trabajos DIV Fotos Final*/
+
+
+
+
+
+/* AREA DE LA NAVEGACION */
+
+#sitenav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    margin-top: 30px;
+
+}
+nav li {
+    display: inline-block;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* FIN AREA DE NAVEGACION */
+
+
+
+
+
+/* Testimonal Section start css*/
+
+.testiomanl-section {
+   
+    text-align: center;
+    padding: 100px;
+    background: #f8f9fa;;
+    
+
+}
+
+.container-cards {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.testimonial-cards {
+    flex-direction: row;
+    background: white;
+    width: 380px;
+    margin: 30px;
+    padding: 20px;
+}
+
+/* Organizare esto despues para los titulos o subtitulos que necesito poner en mayuscula*/
+.uppercase-class {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+
+}
+
+/* Testimonial Section End */
+
+
+/* LATEST Section start css*/
+
+.latest-section {
+
+    text-align: center;
+    padding: 100px;
+    
+    
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.latest-cards {
+    flex-direction: row;
+    background: white;
+    margin: 30px;
+    padding: 18px;
+    text-align: left;
+}
+
+.testimonial-text {
+    width: 380px;
+    padding-top: 60px;
+    margin-right: 0px;
+    margin-left: 70px;
+
+}
+
+
+
+/* Organizare esto despues para los titulos o subtitulos que necesito poner en mayuscula*/
+.uppercase-class {
+    text-transform: uppercase;
+}
+
+
+.littedate-text {
+    font-size: 10px;
+}
+
+
+/* boton para leer more secciones*/
+
+.leermore {
+    border: 0;
+    font-weight: 600;
+
+}
+
+.leermore:hover {
+    background: orangered;
+}
+
+
+
+/* latest news Section End */
