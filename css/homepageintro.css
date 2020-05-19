@@ -201,6 +201,8 @@ ul li {
 #sitenav {
     display: flex;
     justify-content: space-around;
+    margin-top: 0; /* Para que me pegue la barra de navegacion al documento html*/
+    background: #f8f8f8 !important;
 }
 
 nav {
@@ -324,7 +326,7 @@ a {
     display: flex;
     width: 100%;
     background-color: #111111 !important;
-    flex-wrap: wrap; /* Para controlar los elementos hijos del contenedor*/
+    flex-wrap: wrap;
     margin: auto; /* Centramos todo el contenedor*/
     padding: 80px; /* Espacio de el contenedor de el footer */
     
@@ -334,7 +336,7 @@ a {
 .footercontainercards {
     width: 33.333%;
     color: white;
-   /* border: solid; */
+    /*border: solid;*/
 }
 
 
@@ -351,5 +353,14 @@ a {
 
 .footerTitles {
     color: #fff!important;
+}
+
+
+
+#nav-media {
+    margin: 20px;
+    background: rgb(253, 142, 102);
+    font-weight: 600;
+    padding: 5px;
 }
 /* End Footer*/
