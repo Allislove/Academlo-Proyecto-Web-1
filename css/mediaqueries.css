@@ -1,0 +1,54 @@
+/* Extra small devices (Desde 0 hasta 576px cumplira esta condicion la pantalla) */
+@media screen and (max-width:575px) {
+
+    .homepage-container h1 {
+        font-size: 12px;
+    }
+
+    .servicios-contenedor-padre {
+        padding: 10px;
+        margin: 10px;
+    }
+    .cols-4 {
+        width: 100%;
+    }
+
+    .testiomanl-section {
+        width: 100%;
+        display: inline-block;
+    }
+ }
+
+/* Desde 575px hasta 700 px*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .servicios-contenedor-padre {
+        padding: 10px;
+        margin: 10px;
+    }
+    .cols-4 {
+        width: 100%;
+        
+    }
+
+    .container-sixpack {
+        display: grid;
+        width: 100%;
+          
+    }
+}
+
+ /* Pantallas desde 700 px hacia adelante */
+ @media screen and (min-width:700px) {
+    .homepage-container {
+        padding-top: 40px;
+    }
+  }
+
+
+  /* Medium devices (tablets, less than 992px) */
+
+ @media (max-width: 991.98px) { 
+
+
+  }
+
