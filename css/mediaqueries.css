@@ -8,9 +8,6 @@ padding-top: 0px;
 	.homepage-container h1 {
         font-size: 18px;
 	letter-spacing: 0px;
-	
-
-
     }
 
     .servicios-contenedor-padre {
@@ -21,15 +18,24 @@ padding-top: 0px;
         width: 100%;
     }
 
-    .testiomanl-section {
+    .container-cards {
+        display: block;
         width: 100%;
-        display: inline-block;
+    } 
+
+    .testimonial-cards {
+        width: 100%;
+    } 
+
+    .latest-container-cards {
+        display: block;
+        width: 100%;
+    } 
+
+    .latest-cards-cards {
+        width: 100%;
     }
  }
-
-
-
- 
 /* Desde 575px hasta 700 px*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .servicios-contenedor-padre {
@@ -40,11 +46,32 @@ padding-top: 0px;
         width: 100%;
         
     }
+    /* .container-cards {
+        width: 100%;
+        display: block;
+    } */
 
     .container-sixpack {
         display: grid;
         width: 100%;
           
+    }
+    .container-cards {
+        display: block;
+        width: 100%;
+    } 
+
+    .testimonial-cards {
+        width: 100%;
+    } 
+
+    .latest-container-cards {
+        display: block;
+        width: 100%;
+    } 
+
+    .latest-cards-cards {
+        width: 100%;
     }
 }
 
@@ -54,12 +81,8 @@ padding-top: 0px;
         padding-top: 40px;
     }
   }
-
-
   /* Medium devices (tablets, less than 992px) */
 
  @media (max-width: 991.98px) { 
-
-
   }
 
